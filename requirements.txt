@@ -7,3 +7,4 @@ transformers
 sentence_transformers
 langchain-chroma
 chromadb
+pysqlite3-binary
