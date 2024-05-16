@@ -5,3 +5,4 @@ langdetect
 pandas
 transformers
 sentence_transformers
+langchain-chroma
