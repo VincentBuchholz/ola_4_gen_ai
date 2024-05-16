@@ -3,3 +3,5 @@ langchain
 torch
 langdetect
 pandas
+transformers
+sentence_transformers
