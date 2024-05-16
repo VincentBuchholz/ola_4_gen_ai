@@ -24,6 +24,9 @@ from langchain import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Build prompt
 template = """Use the following pieces of context to answer the question at the end. 
 If you don't know the answer, just say that you don't know, don't try to make up an answer. 
